@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{8B6BC377-035F-727B-1AD8-A225884FD06E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_2;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/study/Game editor/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/study/Game editor/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Script\Player.cs" />
+     <Compile Include="Assets\Script\UI背景渐渐切换.cs" />
+     <Compile Include="Assets\Script\staff列表.cs" />
+     <Compile Include="Assets\Script\加分.cs" />
+     <Compile Include="Assets\Script\加血.cs" />
+     <Compile Include="Assets\Script\动态冰锥.cs" />
+     <Compile Include="Assets\Script\奖励物掉落.cs" />
+     <Compile Include="Assets\Script\开场动画.cs" />
+     <Compile Include="Assets\Script\怪物\Boss.cs" />
+     <Compile Include="Assets\Script\怪物\boss触发器.cs" />
+     <Compile Include="Assets\Script\怪物\冰子弹.cs" />
+     <Compile Include="Assets\Script\怪物\图腾地下跟踪.cs" />
+     <Compile Include="Assets\Script\怪物\图腾攻击.cs" />
+     <Compile Include="Assets\Script\怪物\图腾状态控制.cs" />
+     <Compile Include="Assets\Script\怪物\普通子弹.cs" />
+     <Compile Include="Assets\Script\怪物\普通子弹发射.cs" />
+     <Compile Include="Assets\Script\怪物\普通小怪_1.cs" />
+     <Compile Include="Assets\Script\怪物\普通小怪_2.cs" />
+     <Compile Include="Assets\Script\怪物\树懒静止.cs" />
+     <Compile Include="Assets\Script\怪物\草原子弹.cs" />
+     <Compile Include="Assets\Script\怪物\草原子弹发射.cs" />
+     <Compile Include="Assets\Script\怪物\草原小怪受伤判定.cs" />
+     <Compile Include="Assets\Script\怪物\草原小怪行动.cs" />
+     <Compile Include="Assets\Script\怪物\虫子.cs" />
+     <Compile Include="Assets\Script\怪物\陨石.cs" />
+     <Compile Include="Assets\Script\手柄控制.cs" />
+     <Compile Include="Assets\Script\攻击判定.cs" />
+     <Compile Include="Assets\Script\游戏管理\Boss镜头显示.cs" />
+     <Compile Include="Assets\Script\游戏管理\UI动画.cs" />
+     <Compile Include="Assets\Script\游戏管理\不完全跟踪镜头.cs" />
+     <Compile Include="Assets\Script\游戏管理\云雾卷轴.cs" />
+     <Compile Include="Assets\Script\游戏管理\加分显示.cs" />
+     <Compile Include="Assets\Script\游戏管理\加分显示控制.cs" />
+     <Compile Include="Assets\Script\游戏管理\场景切换管理.cs" />
+     <Compile Include="Assets\Script\游戏管理\开始界面动画.cs" />
+     <Compile Include="Assets\Script\游戏管理\正常镜头显示.cs" />
+     <Compile Include="Assets\Script\游戏管理\死亡音乐控制.cs" />
+     <Compile Include="Assets\Script\游戏管理\游戏按钮.cs" />
+     <Compile Include="Assets\Script\游戏管理\游戏按键控制.cs" />
+     <Compile Include="Assets\Script\游戏管理\游戏进度控制.cs" />
+     <Compile Include="Assets\Script\游戏管理\第二关镜头显示.cs" />
+     <Compile Include="Assets\Script\游戏管理\第五关跟踪镜头.cs" />
+     <Compile Include="Assets\Script\游戏管理\第五关镜头显示.cs" />
+     <Compile Include="Assets\Script\游戏管理\花瓣.cs" />
+     <Compile Include="Assets\Script\游戏管理\读取关卡.cs" />
+     <Compile Include="Assets\Script\游戏管理\跟踪镜头.cs" />
+     <Compile Include="Assets\Script\游戏管理\鼠标操控.cs" />
+     <Compile Include="Assets\Script\激活时循环音效.cs" />
+     <Compile Include="Assets\Script\激活时音效.cs" />
+     <Compile Include="Assets\Script\生涯概况记录.cs" />
+     <Compile Include="Assets\Script\移动踏板.cs" />
+     <Compile Include="Assets\Script\第二关移动踏板.cs" />
+     <Compile Include="Assets\Script\第二关随机算法.cs" />
+     <Compile Include="Assets\Script\第六关岩浆.cs" />
+     <Compile Include="Assets\Script\第六关特殊踏板.cs" />
+     <Compile Include="Assets\Script\红色花瓣.cs" />
+     <Compile Include="Assets\Script\自动清除.cs" />
+     <Compile Include="Assets\Script\静态陷阱.cs" />
+     <Compile Include="Assets\temp.cs" />
+     <Compile Include="Assets\网络资源\UIDepth.cs" />
+     <Compile Include="Assets\网络资源\XInputDotNet\Examples\XInputTestCS.cs" />
+     <Compile Include="Assets\网络资源\点击事件穿透.cs" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/study/Game editor/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/study/Game editor/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="XInputDotNetPure">
+ <HintPath>D:/study/Game editor/unity/多彩的火柴人/Assets/Plugins/x86_64/XInputDotNetPure.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
